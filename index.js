@@ -36,11 +36,3 @@ const headerLogoConatiner = document.querySelector(".header__logo-container");
 headerLogoConatiner.addEventListener("click", () => {
   location.href = "index.html";
 });
-
-const form = document.querySelector(".contact__form");
-
-form.addEventListener("submit", function (event) {
-  // Optional: Add your custom form submission logic here (like a success message)
-  form.reset(); // Reset the form fields after submission
-  alert("Form submitted successfully.....maybe!"); // Show success message
-});
