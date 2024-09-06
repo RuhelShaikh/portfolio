@@ -40,9 +40,7 @@ headerLogoConatiner.addEventListener("click", () => {
 const form = document.querySelector(".contact__form");
 
 form.addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevent default form submission
-
   // Optional: Add your custom form submission logic here (like a success message)
   form.reset(); // Reset the form fields after submission
-  alert("Form submitted successfully!"); // Show success message
+  alert("Form submitted successfully.....maybe!"); // Show success message
 });
